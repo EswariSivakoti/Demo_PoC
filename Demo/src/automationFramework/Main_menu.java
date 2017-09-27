@@ -41,10 +41,12 @@ public class Main_menu {
      
      Thread.sleep(10000);
      objprod.BestSellers(driver).click();
-     
+     objprod.Skincare(driver).click();
      Thread.sleep(100);
       
      //     driver.quit();
+     
+     
  
      }
 }
